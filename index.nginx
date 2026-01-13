@@ -7,4 +7,22 @@ WEB SERVER
 Efficiently serves static content ( e.g HTML , images, CSS and JavaScript.)
 
 Gateway ; 
-1.) Reverse Proxy : Routes , incoming client requests to bsckend servers ( e.g. Node.js , Pyhon OR other services)
+1.) Reverse Proxy : Routes , incoming client requests to backend servers ( e.g. Node.js , Python OR other services)
+
+2.) Caching : Speeds up content delivery by storing frequently accessed data locally to reduce load on backend servers.
+
+3.) Rate Limiting : Controls number of requests to prevent abuse or excessive traffic 
+
+4.) Static Site Hosting : Hosts static websites directly from the server.
+
+5.) Multiple Site Hosting : Supports hosting multiple websites on a single server using virtual hosts.
+
+TLS Termination: Manages secure HTTPS connections by Handling encryption and Decryption. reducing the Load on Backend servers.
+
+Load Balancer 
+* Distributes incomig traffic across multiple servers using load-balancing algorithm such as : 
+1) Round-Robin
+2) Least Connections.
+3) IP Hash.
+
+
