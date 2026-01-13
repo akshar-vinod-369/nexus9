@@ -1,0 +1,10 @@
+---------------------------NGINX Learning NOTES for DevOps---------------------------------
+
+What is NGINX ?..
+Ans : NGINX is a versatile web Server used for multiple tasks in application web hosting. It is known for its high performance , scalability and efficiency. Below are its Key Functionalities : 
+
+WEB SERVER
+Efficiently serves static content ( e.g HTML , images, CSS and JavaScript.)
+
+Gateway ; 
+1.) Reverse Proxy : Routes , incoming client requests to bsckend servers ( e.g. Node.js , Pyhon OR other services)
